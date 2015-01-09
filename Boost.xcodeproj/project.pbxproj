@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1302ADAA1A515615001B8C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302ADA91A515615001B8C4E /* AppDelegate.swift */; };
+		1302ADAC1A515615001B8C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302ADAB1A515615001B8C4E /* ViewController.swift */; };
+		1302ADB11A515615001B8C4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1302ADB01A515615001B8C4E /* Images.xcassets */; };
+		1302ADB41A515616001B8C4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1302ADB21A515616001B8C4E /* LaunchScreen.xib */; };
+		1302ADC01A515618001B8C4E /* BoostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302ADBF1A515618001B8C4E /* BoostTests.swift */; };
+		131C9F741A5BE2F50042DF12 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F731A5BE2F50042DF12 /* HostViewController.swift */; };
+		131C9F761A5BE3380042DF12 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F751A5BE3380042DF12 /* GuestViewController.swift */; };
+		131C9F781A5BE3E40042DF12 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F771A5BE3E40042DF12 /* Session.swift */; };
+		136067F31A515AD400C3DFE8 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136067F21A515AD400C3DFE8 /* MultipeerConnectivity.framework */; };
+		13AD21F21A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21D41A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m */; };
+		13AD21F31A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21D61A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m */; };
+		13AD21F41A5EBFC700EA1D8C /* TDAudioMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21D91A5EBFC700EA1D8C /* TDAudioMetaInfo.m */; };
+		13AD21F51A5EBFC700EA1D8C /* TDAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21DB1A5EBFC700EA1D8C /* TDAudioPlayer.m */; };
+		13AD21F61A5EBFC700EA1D8C /* TDAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21DF1A5EBFC700EA1D8C /* TDAudioFileStream.m */; };
+		13AD21F71A5EBFC700EA1D8C /* TDAudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21E11A5EBFC700EA1D8C /* TDAudioQueue.m */; };
+		13AD21F81A5EBFC700EA1D8C /* TDAudioQueueBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21E31A5EBFC700EA1D8C /* TDAudioQueueBuffer.m */; };
+		13AD21F91A5EBFC700EA1D8C /* TDAudioQueueBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21E51A5EBFC700EA1D8C /* TDAudioQueueBufferManager.m */; };
+		13AD21FA1A5EBFC700EA1D8C /* TDAudioQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21E71A5EBFC700EA1D8C /* TDAudioQueueController.m */; };
+		13AD21FB1A5EBFC700EA1D8C /* TDAudioQueueFiller.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21E91A5EBFC700EA1D8C /* TDAudioQueueFiller.m */; };
+		13AD21FC1A5EBFC700EA1D8C /* TDAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21EB1A5EBFC700EA1D8C /* TDAudioStream.m */; };
+		13AD21FD1A5EBFC700EA1D8C /* TDAudioInputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21ED1A5EBFC700EA1D8C /* TDAudioInputStreamer.m */; };
+		13AD21FE1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21EF1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m */; };
+		13AD21FF1A5EBFC700EA1D8C /* TDAudioPlayerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21F11A5EBFC700EA1D8C /* TDAudioPlayerConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1302ADBA1A515618001B8C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1302AD9C1A515614001B8C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1302ADA31A515614001B8C4E;
+			remoteInfo = Boost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1302ADA41A515615001B8C4E /* Boost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1302ADA81A515615001B8C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1302ADA91A515615001B8C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1302ADAB1A515615001B8C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1302ADB01A515615001B8C4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1302ADB31A515616001B8C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1302ADB91A515618001B8C4E /* BoostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1302ADBE1A515618001B8C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1302ADBF1A515618001B8C4E /* BoostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostTests.swift; sourceTree = "<group>"; };
+		131C9F731A5BE2F50042DF12 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		131C9F751A5BE3380042DF12 /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		131C9F771A5BE3E40042DF12 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		136067F21A515AD400C3DFE8 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		13AD21D31A5EBFC700EA1D8C /* NSInputStream+URLInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInputStream+URLInitialization.h"; sourceTree = "<group>"; };
+		13AD21D41A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+URLInitialization.m"; sourceTree = "<group>"; };
+		13AD21D51A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueMethods.h"; sourceTree = "<group>"; };
+		13AD21D61A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueMethods.m"; sourceTree = "<group>"; };
+		13AD21D81A5EBFC700EA1D8C /* TDAudioMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioMetaInfo.h; sourceTree = "<group>"; };
+		13AD21D91A5EBFC700EA1D8C /* TDAudioMetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioMetaInfo.m; sourceTree = "<group>"; };
+		13AD21DA1A5EBFC700EA1D8C /* TDAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioPlayer.h; sourceTree = "<group>"; };
+		13AD21DB1A5EBFC700EA1D8C /* TDAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioPlayer.m; sourceTree = "<group>"; };
+		13AD21DE1A5EBFC700EA1D8C /* TDAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioFileStream.h; sourceTree = "<group>"; };
+		13AD21DF1A5EBFC700EA1D8C /* TDAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioFileStream.m; sourceTree = "<group>"; };
+		13AD21E01A5EBFC700EA1D8C /* TDAudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueue.h; sourceTree = "<group>"; };
+		13AD21E11A5EBFC700EA1D8C /* TDAudioQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueue.m; sourceTree = "<group>"; };
+		13AD21E21A5EBFC700EA1D8C /* TDAudioQueueBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBuffer.h; sourceTree = "<group>"; };
+		13AD21E31A5EBFC700EA1D8C /* TDAudioQueueBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBuffer.m; sourceTree = "<group>"; };
+		13AD21E41A5EBFC700EA1D8C /* TDAudioQueueBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBufferManager.h; sourceTree = "<group>"; };
+		13AD21E51A5EBFC700EA1D8C /* TDAudioQueueBufferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBufferManager.m; sourceTree = "<group>"; };
+		13AD21E61A5EBFC700EA1D8C /* TDAudioQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueController.h; sourceTree = "<group>"; };
+		13AD21E71A5EBFC700EA1D8C /* TDAudioQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueController.m; sourceTree = "<group>"; };
+		13AD21E81A5EBFC700EA1D8C /* TDAudioQueueFiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueFiller.h; sourceTree = "<group>"; };
+		13AD21E91A5EBFC700EA1D8C /* TDAudioQueueFiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueFiller.m; sourceTree = "<group>"; };
+		13AD21EA1A5EBFC700EA1D8C /* TDAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioStream.h; sourceTree = "<group>"; };
+		13AD21EB1A5EBFC700EA1D8C /* TDAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioStream.m; sourceTree = "<group>"; };
+		13AD21EC1A5EBFC700EA1D8C /* TDAudioInputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioInputStreamer.h; sourceTree = "<group>"; };
+		13AD21ED1A5EBFC700EA1D8C /* TDAudioInputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioInputStreamer.m; sourceTree = "<group>"; };
+		13AD21EE1A5EBFC700EA1D8C /* TDAudioOutputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioOutputStreamer.h; sourceTree = "<group>"; };
+		13AD21EF1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioOutputStreamer.m; sourceTree = "<group>"; };
+		13AD21F01A5EBFC700EA1D8C /* TDAudioPlayerConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = TDAudioPlayerConstants.h; sourceTree = "<group>"; };
+		13AD21F11A5EBFC700EA1D8C /* TDAudioPlayerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioPlayerConstants.m; sourceTree = "<group>"; };
+		13AD22001A5EBFEC00EA1D8C /* Boost-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boost-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1302ADA11A515614001B8C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136067F31A515AD400C3DFE8 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302ADB61A515618001B8C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1302AD9B1A515614001B8C4E = {
+			isa = PBXGroup;
+			children = (
+				136067F21A515AD400C3DFE8 /* MultipeerConnectivity.framework */,
+				1302ADA61A515615001B8C4E /* Boost */,
+				1302ADBC1A515618001B8C4E /* BoostTests */,
+				1302ADA51A515615001B8C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1302ADA51A515615001B8C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1302ADA41A515615001B8C4E /* Boost.app */,
+				1302ADB91A515618001B8C4E /* BoostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1302ADA61A515615001B8C4E /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				1302ADA91A515615001B8C4E /* AppDelegate.swift */,
+				1302ADAB1A515615001B8C4E /* ViewController.swift */,
+				131C9F771A5BE3E40042DF12 /* Session.swift */,
+				13AD22001A5EBFEC00EA1D8C /* Boost-Header.h */,
+				13AD21D01A5EBFC700EA1D8C /* AudioPlayerLibrary */,
+				131C9F751A5BE3380042DF12 /* GuestViewController.swift */,
+				131C9F731A5BE2F50042DF12 /* HostViewController.swift */,
+				1302ADB01A515615001B8C4E /* Images.xcassets */,
+				1302ADB21A515616001B8C4E /* LaunchScreen.xib */,
+				1302ADA71A515615001B8C4E /* Supporting Files */,
+			);
+			path = Boost;
+			sourceTree = "<group>";
+		};
+		1302ADA71A515615001B8C4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1302ADA81A515615001B8C4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1302ADBC1A515618001B8C4E /* BoostTests */ = {
+			isa = PBXGroup;
+			children = (
+				1302ADBF1A515618001B8C4E /* BoostTests.swift */,
+				1302ADBD1A515618001B8C4E /* Supporting Files */,
+			);
+			path = BoostTests;
+			sourceTree = "<group>";
+		};
+		1302ADBD1A515618001B8C4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1302ADBE1A515618001B8C4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13AD21D01A5EBFC700EA1D8C /* AudioPlayerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21D11A5EBFC700EA1D8C /* AudioPlayer */,
+				13AD21DC1A5EBFC700EA1D8C /* AudioStreamer */,
+				13AD21F01A5EBFC700EA1D8C /* TDAudioPlayerConstants.h */,
+				13AD21F11A5EBFC700EA1D8C /* TDAudioPlayerConstants.m */,
+			);
+			path = AudioPlayerLibrary;
+			sourceTree = "<group>";
+		};
+		13AD21D11A5EBFC700EA1D8C /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21D21A5EBFC700EA1D8C /* Categories */,
+				13AD21D71A5EBFC700EA1D8C /* Classes */,
+				13AD21DA1A5EBFC700EA1D8C /* TDAudioPlayer.h */,
+				13AD21DB1A5EBFC700EA1D8C /* TDAudioPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		13AD21D21A5EBFC700EA1D8C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21D31A5EBFC700EA1D8C /* NSInputStream+URLInitialization.h */,
+				13AD21D41A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m */,
+				13AD21D51A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.h */,
+				13AD21D61A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		13AD21D71A5EBFC700EA1D8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21D81A5EBFC700EA1D8C /* TDAudioMetaInfo.h */,
+				13AD21D91A5EBFC700EA1D8C /* TDAudioMetaInfo.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		13AD21DC1A5EBFC700EA1D8C /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21DD1A5EBFC700EA1D8C /* Classes */,
+				13AD21EC1A5EBFC700EA1D8C /* TDAudioInputStreamer.h */,
+				13AD21ED1A5EBFC700EA1D8C /* TDAudioInputStreamer.m */,
+				13AD21EE1A5EBFC700EA1D8C /* TDAudioOutputStreamer.h */,
+				13AD21EF1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		13AD21DD1A5EBFC700EA1D8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13AD21DE1A5EBFC700EA1D8C /* TDAudioFileStream.h */,
+				13AD21DF1A5EBFC700EA1D8C /* TDAudioFileStream.m */,
+				13AD21E01A5EBFC700EA1D8C /* TDAudioQueue.h */,
+				13AD21E11A5EBFC700EA1D8C /* TDAudioQueue.m */,
+				13AD21E21A5EBFC700EA1D8C /* TDAudioQueueBuffer.h */,
+				13AD21E31A5EBFC700EA1D8C /* TDAudioQueueBuffer.m */,
+				13AD21E41A5EBFC700EA1D8C /* TDAudioQueueBufferManager.h */,
+				13AD21E51A5EBFC700EA1D8C /* TDAudioQueueBufferManager.m */,
+				13AD21E61A5EBFC700EA1D8C /* TDAudioQueueController.h */,
+				13AD21E71A5EBFC700EA1D8C /* TDAudioQueueController.m */,
+				13AD21E81A5EBFC700EA1D8C /* TDAudioQueueFiller.h */,
+				13AD21E91A5EBFC700EA1D8C /* TDAudioQueueFiller.m */,
+				13AD21EA1A5EBFC700EA1D8C /* TDAudioStream.h */,
+				13AD21EB1A5EBFC700EA1D8C /* TDAudioStream.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1302ADA31A515614001B8C4E /* Boost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302ADC31A515618001B8C4E /* Build configuration list for PBXNativeTarget "Boost" */;
+			buildPhases = (
+				1302ADA01A515614001B8C4E /* Sources */,
+				1302ADA11A515614001B8C4E /* Frameworks */,
+				1302ADA21A515614001B8C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boost;
+			productName = Boost;
+			productReference = 1302ADA41A515615001B8C4E /* Boost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1302ADB81A515618001B8C4E /* BoostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1302ADC61A515618001B8C4E /* Build configuration list for PBXNativeTarget "BoostTests" */;
+			buildPhases = (
+				1302ADB51A515618001B8C4E /* Sources */,
+				1302ADB61A515618001B8C4E /* Frameworks */,
+				1302ADB71A515618001B8C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1302ADBB1A515618001B8C4E /* PBXTargetDependency */,
+			);
+			name = BoostTests;
+			productName = BoostTests;
+			productReference = 1302ADB91A515618001B8C4E /* BoostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1302AD9C1A515614001B8C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gautier Delorme";
+				TargetAttributes = {
+					1302ADA31A515614001B8C4E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1302ADB81A515618001B8C4E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1302ADA31A515614001B8C4E;
+					};
+				};
+			};
+			buildConfigurationList = 1302AD9F1A515614001B8C4E /* Build configuration list for PBXProject "Boost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1302AD9B1A515614001B8C4E;
+			productRefGroup = 1302ADA51A515615001B8C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1302ADA31A515614001B8C4E /* Boost */,
+				1302ADB81A515618001B8C4E /* BoostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1302ADA21A515614001B8C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1302ADB41A515616001B8C4E /* LaunchScreen.xib in Resources */,
+				1302ADB11A515615001B8C4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302ADB71A515618001B8C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1302ADA01A515614001B8C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131C9F781A5BE3E40042DF12 /* Session.swift in Sources */,
+				13AD21F81A5EBFC700EA1D8C /* TDAudioQueueBuffer.m in Sources */,
+				1302ADAC1A515615001B8C4E /* ViewController.swift in Sources */,
+				13AD21F61A5EBFC700EA1D8C /* TDAudioFileStream.m in Sources */,
+				1302ADAA1A515615001B8C4E /* AppDelegate.swift in Sources */,
+				13AD21FC1A5EBFC700EA1D8C /* TDAudioStream.m in Sources */,
+				131C9F741A5BE2F50042DF12 /* HostViewController.swift in Sources */,
+				13AD21F41A5EBFC700EA1D8C /* TDAudioMetaInfo.m in Sources */,
+				13AD21F91A5EBFC700EA1D8C /* TDAudioQueueBufferManager.m in Sources */,
+				13AD21FD1A5EBFC700EA1D8C /* TDAudioInputStreamer.m in Sources */,
+				13AD21FF1A5EBFC700EA1D8C /* TDAudioPlayerConstants.m in Sources */,
+				131C9F761A5BE3380042DF12 /* GuestViewController.swift in Sources */,
+				13AD21FE1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m in Sources */,
+				13AD21F71A5EBFC700EA1D8C /* TDAudioQueue.m in Sources */,
+				13AD21F51A5EBFC700EA1D8C /* TDAudioPlayer.m in Sources */,
+				13AD21FB1A5EBFC700EA1D8C /* TDAudioQueueFiller.m in Sources */,
+				13AD21F31A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m in Sources */,
+				13AD21FA1A5EBFC700EA1D8C /* TDAudioQueueController.m in Sources */,
+				13AD21F21A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1302ADB51A515618001B8C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1302ADC01A515618001B8C4E /* BoostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1302ADBB1A515618001B8C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1302ADA31A515614001B8C4E /* Boost */;
+			targetProxy = 1302ADBA1A515618001B8C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1302ADB21A515616001B8C4E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1302ADB31A515616001B8C4E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1302ADC11A515618001B8C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1302ADC21A515618001B8C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1302ADC41A515618001B8C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Boost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Boost/Boost-Header.h";
+			};
+			name = Debug;
+		};
+		1302ADC51A515618001B8C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Boost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Boost/Boost-Header.h";
+			};
+			name = Release;
+		};
+		1302ADC71A515618001B8C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+			};
+			name = Debug;
+		};
+		1302ADC81A515618001B8C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1302AD9F1A515614001B8C4E /* Build configuration list for PBXProject "Boost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302ADC11A515618001B8C4E /* Debug */,
+				1302ADC21A515618001B8C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302ADC31A515618001B8C4E /* Build configuration list for PBXNativeTarget "Boost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302ADC41A515618001B8C4E /* Debug */,
+				1302ADC51A515618001B8C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1302ADC61A515618001B8C4E /* Build configuration list for PBXNativeTarget "BoostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1302ADC71A515618001B8C4E /* Debug */,
+				1302ADC81A515618001B8C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1302AD9C1A515614001B8C4E /* Project object */;
+}
