@@ -64,11 +64,12 @@
         }
     }
 
-#if DEBUG
+//#if DEBUG
     if (self.freeBuffers.count > self.bufferCount >> 1) {
         NSLog(@"Free Buffers: %lu", (unsigned long)self.freeBuffers.count);
+        NSLog(@"d : %f",CFAbsoluteTimeGetCurrent());
     }
-#endif
+//#endif
 }
 
 - (TDAudioQueueBuffer *)nextFreeBuffer

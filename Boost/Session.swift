@@ -81,12 +81,14 @@ class Session: NSObject, MCSessionDelegate, MCBrowserViewControllerDelegate {
     // MARK: - Others
     
     func openStreamToPeer(peerID: MCPeerID) -> NSOutputStream {
-        var error : NSError?
-        let stream: NSOutputStream = session.startStreamWithName("data-stream", toPeer: peerID, error: &error)
+        var error : NSError? = nil
+        var streamName = String(format: "%f", NSDate.timeIntervalSinceReferenceDate())
+        println(streamName)
+        var stream: NSOutputStream? = session.startStreamWithName(streamName, toPeer: peerID, error: &error)
         if error != nil {
-            println("error stream \(error?.userInfo)")
+            println("error stream \(error!.localizedDescription)")
         }
-        return stream
+        return stream!
     }
     
     func startAdvertiser() {

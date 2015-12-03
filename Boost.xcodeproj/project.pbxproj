@@ -15,6 +15,7 @@
 		131C9F741A5BE2F50042DF12 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F731A5BE2F50042DF12 /* HostViewController.swift */; };
 		131C9F761A5BE3380042DF12 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F751A5BE3380042DF12 /* GuestViewController.swift */; };
 		131C9F781A5BE3E40042DF12 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C9F771A5BE3E40042DF12 /* Session.swift */; };
+		1321EBA71A5FE7EA00608BCD /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1321EBA61A5FE7EA00608BCD /* NowPlayingViewController.swift */; };
 		136067F31A515AD400C3DFE8 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136067F21A515AD400C3DFE8 /* MultipeerConnectivity.framework */; };
 		13AD21F21A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21D41A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m */; };
 		13AD21F31A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21D61A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m */; };
@@ -30,6 +31,7 @@
 		13AD21FD1A5EBFC700EA1D8C /* TDAudioInputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21ED1A5EBFC700EA1D8C /* TDAudioInputStreamer.m */; };
 		13AD21FE1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21EF1A5EBFC700EA1D8C /* TDAudioOutputStreamer.m */; };
 		13AD21FF1A5EBFC700EA1D8C /* TDAudioPlayerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AD21F11A5EBFC700EA1D8C /* TDAudioPlayerConstants.m */; };
+		13C6C8861A616C9B008EA74E /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6C8851A616C9B008EA74E /* PlayerItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		131C9F731A5BE2F50042DF12 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
 		131C9F751A5BE3380042DF12 /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
 		131C9F771A5BE3E40042DF12 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1321EBA61A5FE7EA00608BCD /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		136067F21A515AD400C3DFE8 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		13AD21D31A5EBFC700EA1D8C /* NSInputStream+URLInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInputStream+URLInitialization.h"; sourceTree = "<group>"; };
 		13AD21D41A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+URLInitialization.m"; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		13AD21F01A5EBFC700EA1D8C /* TDAudioPlayerConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = TDAudioPlayerConstants.h; sourceTree = "<group>"; };
 		13AD21F11A5EBFC700EA1D8C /* TDAudioPlayerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioPlayerConstants.m; sourceTree = "<group>"; };
 		13AD22001A5EBFEC00EA1D8C /* Boost-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boost-Header.h"; sourceTree = "<group>"; };
+		13C6C8851A616C9B008EA74E /* PlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		1302ADA61A515615001B8C4E /* Boost */ = {
 			isa = PBXGroup;
 			children = (
+				13C6C8851A616C9B008EA74E /* PlayerItem.swift */,
 				1302ADA91A515615001B8C4E /* AppDelegate.swift */,
 				1302ADAB1A515615001B8C4E /* ViewController.swift */,
 				131C9F771A5BE3E40042DF12 /* Session.swift */,
@@ -135,6 +140,7 @@
 				13AD21D01A5EBFC700EA1D8C /* AudioPlayerLibrary */,
 				131C9F751A5BE3380042DF12 /* GuestViewController.swift */,
 				131C9F731A5BE2F50042DF12 /* HostViewController.swift */,
+				1321EBA61A5FE7EA00608BCD /* NowPlayingViewController.swift */,
 				1302ADB01A515615001B8C4E /* Images.xcassets */,
 				1302ADB21A515616001B8C4E /* LaunchScreen.xib */,
 				1302ADA71A515615001B8C4E /* Supporting Files */,
@@ -291,6 +297,7 @@
 				TargetAttributes = {
 					1302ADA31A515614001B8C4E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 54237H7ZFF;
 					};
 					1302ADB81A515618001B8C4E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -357,6 +364,8 @@
 				13AD21F71A5EBFC700EA1D8C /* TDAudioQueue.m in Sources */,
 				13AD21F51A5EBFC700EA1D8C /* TDAudioPlayer.m in Sources */,
 				13AD21FB1A5EBFC700EA1D8C /* TDAudioQueueFiller.m in Sources */,
+				13C6C8861A616C9B008EA74E /* PlayerItem.swift in Sources */,
+				1321EBA71A5FE7EA00608BCD /* NowPlayingViewController.swift in Sources */,
 				13AD21F31A5EBFC700EA1D8C /* NSMutableArray+QueueMethods.m in Sources */,
 				13AD21FA1A5EBFC700EA1D8C /* TDAudioQueueController.m in Sources */,
 				13AD21F21A5EBFC700EA1D8C /* NSInputStream+URLInitialization.m in Sources */,

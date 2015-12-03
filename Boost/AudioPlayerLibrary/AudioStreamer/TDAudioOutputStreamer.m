@@ -27,7 +27,6 @@
 {
     self = [super init];
     if (!self) return nil;
-
     self.audioStream = [[TDAudioStream alloc] initWithOutputStream:stream];
     self.audioStream.delegate = self;
 
@@ -93,6 +92,7 @@
     OSStatus err = CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer(sampleBuffer, NULL, &audioBufferList, sizeof(AudioBufferList), NULL, NULL, kCMSampleBufferFlag_AudioBufferList_Assure16ByteAlignment, &blockBuffer);
 
     if (err) {
+         NSLog(@"noooo");
         CFRelease(sampleBuffer);
         return;
     }
@@ -117,6 +117,7 @@
 
         case TDAudioStreamEventError:
             // TODO: shit!
+            NSLog(@"shiiit");
             break;
 
         default:

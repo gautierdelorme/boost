@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.navigationBarHidden = true
+        //self.navigationController?.navigationBarHidden = true
         self.view.backgroundColor = UIColor.blueColor()
         
-        sendButton.frame = CGRectMake(5, 30, 70, 10)
+        sendButton.frame = CGRectMake(5, 130, 70, 10)
         sendButton.setTitle("Host", forState: UIControlState.Normal)
         sendButton.addTarget(self, action: "goToHost:", forControlEvents: UIControlEvents.TouchUpInside)
         
